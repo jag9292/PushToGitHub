@@ -8,25 +8,31 @@
 </head>
 <body>
     <div>
-        First Name: * <input type="text" name="First_Name">
+        <label for="text">First Name: * </label>
+        <input type="text" name="First_Name">
     </div>
     <div>
-        Last Name: * <input type="text" name="Last_Name">
+        <label for="text">Last Name: * </label>
+        <input type="text" name="Last_Name">
     </div>
     <div>
-        Email Address: * <input type="text" name="Email_Address">
+        <label for="text">Email Address: * </label>
+        <input type="text" name="Email_Address">
     </div>
     <div>
-        Password: * <input type="password" name="Password">
+        <label for="text">Password: * </label>
+        <input type="password" name="Password">
     </div>
     <div>
-        Confirm Password: * <input type="password" name="Confirm_Password">
+        <label for="text">Confirm Password: * </label>
+        <input type="password" name="Confirm_Password">
     </div>
     <div>
-        Birthday: <input type="date" name="dob">
+        <label for="text">Birthday: </label>
+        <input type="date" name="dob">
     </div>
     <div>
-        Gender Identity: 
+        <label for="text">Gender Identity: </label> 
             <input type="radio" name="Gender" 
             Value="Male" id="male"> Male
             <input type="radio" name="Gender"
@@ -37,24 +43,25 @@
             Value="I prefer not to answer" id="I prefer not to answer"> I prefer not to answer
     </div>
     <div>
-        A short description about myself:
+        <label for="text">A short description about myself: </label>
     </div>
     <div>
         <textarea name="" id="" cols="30" rows="3"></textarea>
     </div>
     <div>
-        Favorite Language:
+        <label for="text">Favorite Languages: </label>
         <select name="favorite_language">
             <option>JavaScript</option>
+            <option>Python</option>
         </select>
     </div>
     <div>
         <input type="checkbox" name="accept" id="accept"> 
-        Yes, I would like to receive periodic email updates
+        <label for="checkbox">Yes, I would like to receive periodic email updates</label>
     </div>
     <div>
         <input type="submit" value="Create Account">
     </div>
-    * Indicates a required field
+    <label for="text">* Indicates a required field</label>
 </body>
 </html>
